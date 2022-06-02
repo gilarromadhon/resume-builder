@@ -26,7 +26,7 @@ export default function Home() {
 
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-4 h-screen items-center ">
         <div className='flex md:hidden justify-center'>
-          <img className='w-96 -mb-10' src={Ilustration} alt="Ilustration" />
+          <img className='w-96 p-5 -mb-10' src={Ilustration} alt="Ilustration" />
         </div>
         <div className='text-center md:text-right'>
           <h1 className='font-bold'>Free <span className="text-primary" >Resume Builder</span> for <br />Modern Job Seekers</h1>
@@ -40,7 +40,7 @@ export default function Home() {
         <div className='hidden md:inline-block'>
           <img className='w-full' src={Ilustration} alt="Ilustration" />
         </div>
-        <div className="w-full -mb-10 md:mb-0 static md:absolute flex items-center justify-center bottom-0 left-1/2 transform md:-translate-x-1/2 -translate-y-1/2 font-normal text-sm opacity-50">
+        <div className="w-full -mb-1 -mt-20 md:mb-0 static md:absolute flex items-center justify-center bottom-0 left-1/2 transform md:-translate-x-1/2 -translate-y-1/2 font-normal text-sm opacity-50">
           Develop by 
           <i class="ri-github-fill ml-1 hover:cursor-pointer" onClick={() => {window.open("https://github.com/gilarromadhon/", "_blank");}}></i>
           <i class="ri-instagram-fill ml-1 hover:cursor-pointer" onClick={() => {window.open("https://instagram.com/gilarromadhon/", "_blank");}}></i>
