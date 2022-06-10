@@ -131,10 +131,13 @@ export default function Form() {
 
   return (
     <div className='container pt-10'>
-        <div className='ml-3' style={{ width: '100px' }}>
+        <div className='ml-3 flex flex-row justify-between'>
             <button className='bg-primary w-10 h-10 text-white rounded-full flex flex-row items-center justify-center' onClick={handleBack} >
                 <i class="ri-arrow-left-s-line text-2xl"></i>
             </button>
+            <div class="flex md:hidden p-3 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert">
+                <span class="font-medium">For better experience open on desktop</span>
+            </div>
         </div>
         <div className="flex">
             <div className="w-full md:basis-1/3 h-full p-3">
